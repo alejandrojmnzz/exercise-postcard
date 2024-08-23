@@ -1,0 +1,48 @@
+body {
+	background: black;
+	font-family: Edu VIC WA NT Beginner;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 1000px;
+	margin: 0px;
+	margin-left: 8px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	border: none;
+	border-bottom: 1px grey solid;
+	font-family: Edu VIC WA NT Beginner;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(175, 175, 175);
+	padding: 5px;
+	border: none;
+	border-bottom: 1px black solid;
+	font-family: Edu VIC WA NT Beginner;
+}
